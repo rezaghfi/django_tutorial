@@ -2,7 +2,7 @@ body{
     direction: rtl;
     font-family: vazir;
 }
-.navbar {
+header, footer {
     padding: 60px;
     margin-bottom: 40px;
     background-color: #3b3838;
