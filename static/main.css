@@ -74,6 +74,11 @@ nav > div > a {
     color: aliceblue;
 }
 
+.left{
+    float: left;
+    margin: 0 1rem;
+}
+
 @font-face {
   font-family: vazir;
   src: url('font/vazir/vazir.eot');

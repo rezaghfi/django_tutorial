@@ -1,6 +1,10 @@
 {% load static %}
 <header>
-        <a class="navList" href="{% url 'home' %}" class="navbar">خانه</a>
-        <a class="navList" href="{% url 'create' %}" class="navbar">ایجاد کار جدید</a>
-        <img id="logo" src="{% static 'logo.svg' %}" alt="logo">
+    <a class="navList" href="{% url 'home' %}" >خانه</a>
+    <a class="navList" href="{% url 'create' %}">ایجاد کار جدید</a>
+    <a class="navList left" href="{% url 'home' %}" >ثبت نام</a>
+    <a class="navList left" href="{% url 'home' %}" >ورود</a>
+    <a class="navList left" href="{% url 'home' %}" >خروج</a>
+
+    <img id="logo" src="{% static 'logo.svg' %}" alt="logo">
 </header>
