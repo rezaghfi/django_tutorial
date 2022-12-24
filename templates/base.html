@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <title>{% block title %} {% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'main.css' %}">
+</head>
+<body>
+{% include 'header.html' %}
+<div class="jumbotron">
+    {% include 'messages.html' %}
+    {% block content %} {% endblock %}
+</div>
+{% include 'footer.html' %}
+</body>
+</html>

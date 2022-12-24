@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>segments</title>
+    <style>
+        html {
+            font-family: vazir;
+            font-size: 100%;
+        }
+        body {
+            padding-top: 2rem;
+        }
+        p {
+            background-color: #12a5dc;
+            padding: 2rem;
+            color: white;
+            text-align: center;
+            border-radius: 6px;
+        }
+        header, section, aside, footer {
+            margin: 0 0 2rem ;
+
+        }
+
+        section{
+            float: left;
+            width: 60%;
+
+        }
+        aside{
+            float: right;
+            width: 20%;
+        }
+        .clearfix:after,
+        .clearfix:before{
+            content: "";
+            display: table;
+        }
+        .clearfix{
+            clear: both;
+        }
+        footer{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <p>header</p>
+</header>
+<div class="clearfix">
+    <section>
+        <p>section</p>
+    </section>
+    <aside>
+        <p>aside</p>
+    </aside>
+</div>
+<footer>
+    <p>footer</p>
+</footer>
+</body>
+</html>

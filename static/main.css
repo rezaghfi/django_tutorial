@@ -1,0 +1,85 @@
+body{
+    direction: rtl;
+    font-family: vazir;
+}
+.navbar {
+    padding: 60px;
+    margin-bottom: 40px;
+    background-color: #3b3838;
+}
+
+nav > div > a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.jumbotron {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+.card {
+    padding: 20px;
+    line-height: 30px;
+    background-color: aqua;
+}
+.card-body>a{
+    color: #000000;
+    text-decoration: none;
+    list-style-type: circle;
+    font-size: 24px;
+}
+
+#logo{
+    width: 150px;
+    float: left;
+}
+
+.btn-danger {
+    background-color: #ce3434;
+    border: #670719;
+    border-radius: 3px;
+    color: white;
+    padding: 5px;
+    text-decoration: unset;
+}
+
+.messages {
+    color: green;
+    background-color: #c6f6b1;
+    border: #dcf8a6;
+    border-radius: 3px;
+}
+
+.btn-success {
+    background-color: #cedc98;
+    border: #14cc03;
+    border-radius: 3px;
+    color: white;
+    padding: 5px 5px 10px 5px;
+    text-decoration: unset;
+}
+.navList {
+    background-color: #58d1ff;
+    border: #9ce6ff;
+    border-radius: 3px;
+    color: #0a0a0a;
+    padding: 5px 5px 10px 5px;
+    text-decoration: unset;
+}
+
+#footerText {
+    color: aliceblue;
+}
+
+@font-face {
+  font-family: vazir;
+  src: url('font/vazir/vazir.eot');
+  src: url('font/vazir/vazir.eot?#iefix') format('vazir-opentype'),
+       url('font/vazir/vazir.woff') format('woff'),
+       url('font/vazir/vazir.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
